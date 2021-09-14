@@ -1,31 +1,24 @@
-# Classify-Music-Clips
-<h1 align="center"><b>Classify-Music-Clips</b></h1>
-<p align="center">
-<img src="https://github.com/madhurima99/Grokking-Machine-Learning/blob/main/Notebooks/Voice-Gender%20identification/Outputs/genderVoice.png" alt="gender-Voice" height=280 width=500>
-</p>
-<p>Gender identification is considered to be one of the major problems in the field of signal processing. In this project a set of acoustic and pitch features along with different classifiers has been compared for the problem of gender identification. In order to distinguish gender from a voice signal, a set of techniques have been employed to determine relevant features to be utilized for building a model from a training set. This model is useful for determining the gender (i.e., male or female) from a voice signal.<p>
-<h2>Dataset</h2>
-<p>For this project, <a href="https://www.kaggle.com/primaryobjects/voicegender">Gender Recognition by Voice</a> dataset has been used.<br>
-The dataset is based upon acoustic properties of the voice and speech.</p>
-<h2>Model</h2>
-<p>For identifying gender from voice, 3 different models(Decision tree classifier, SVM and Deep neural networks) have been used.<br>
-The performance comparison of the models is shown below:
-</p> 
-<p align="center">
- <img src="https://github.com/madhurima99/Grokking-Machine-Learning/blob/main/Notebooks/Voice-Gender%20identification/Outputs/Models.png" alt="models" border="0">
-</p>
-<p>Out of the three models, model built using Deep Neural Network performs the best. It has an accuracy of 98.58% on test dataset.</p>
-<p align="center">
-Architecture of the DNN model<br>
-<img src="https://github.com/madhurima99/Grokking-Machine-Learning/blob/main/Notebooks/Voice-Gender%20identification/Outputs/dnn_model.PNG" alt="dnn-model" height=280 width=500>
-</p>
-<h2>Requirements to run the notebook</h2>
+# Classify Music Clips
+<img height="300" width="450" alt="portfolio_view" src="https://www.servomagazine.com/uploads/articles/SV_0220_Keshri_Large.jpg">
 
->1. Numpy
+Music genre classification forms a basic step for building a strong recommendation system.
+The idea behind this project is to see how to handle sound files in python, compute sound and audio features from them, run Machine Learning Algorithms on them, and see the results.
+
+# Dataset
+The audio dataset is available at: -
+- http://marsyas.info/downloads/datasets.html  
+- https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genre-classification
+
+The dataset consists of 1,000 audio tracks, each 30 seconds long. It contains 10 genres, each represented by 100 tracks.
+
+Audio features has been extracted from music clips using librosa and stored in  [gtzan.csv](https://github.com/madhurima99/Classify-Music-Clips/blob/main/Audio%20feature%20extraction/gtzan.csv) file.
+
+# Requirements to run the notebook
+
+>1. Librosa
 >2. Pandas 
->3. TensorFlow 2.0
+>3. Numpy
 >4. Sklearn
 >5. Matplotlib
 >6. Seaborn 
-
-
+>7. IPython
