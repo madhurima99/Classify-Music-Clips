@@ -1,5 +1,5 @@
 # Classify Music Clips
-<img height="300" width="450" alt="portfolio_view" src="https://www.servomagazine.com/uploads/articles/SV_0220_Keshri_Large.jpg">
+<img height="300" width="500" alt="portfolio_view" src="https://www.servomagazine.com/uploads/articles/SV_0220_Keshri_Large.jpg">
 
 Music genre classification forms a basic step for building a strong recommendation system.
 The idea behind this project is to see how to handle sound files in python, compute sound and audio features from them, run Machine Learning Algorithms on them, and see the results.
